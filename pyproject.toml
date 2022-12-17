@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pythonprojectweather"
+version = "0.1.0"
+description = ""
+authors = ["Lova595 <shumilova.lyubochka@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+beautifulsoup4 = "^4.11.1"
+pytelegrambotapi = "^4.8.0"
+numpy = "^1.23.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
